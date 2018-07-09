@@ -1,0 +1,15 @@
+{
+  "name": "VGPCreative",
+  "version": "0.1.0",
+  "description": "VGPCreative",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-sass": "latest",
+    "grunt-postcss": "latest",
+    "autoprefixer": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest"
+  }
+}
