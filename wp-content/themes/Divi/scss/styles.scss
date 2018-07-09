@@ -152,24 +152,22 @@ $white: #ffffff;
   padding: 0 !important;
 }
 
-.et_pb_section_sticky, .et_pb_section_sticky .et_pb_column_single, .et_pb_section_sticky .et_pb_row.et-last-child, .et_pb_section_sticky .et_pb_row:last-child, .et_pb_section_sticky .et_pb_specialty_column .et_pb_row_inner.et-last-child, .et_pb_section_sticky .et_pb_specialty_column .et_pb_row_inner:last-child {
-  &.age-of-light-hero {
-    position: relative;
-    padding: 140px 60px !important;
+.age-of-light-hero {
+  position: relative;
+  padding: 140px 60px !important;
+  border-left: 1px solid $light-gray;
+  border-right: 1px solid $light-gray;
+
+  &:before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 0;
+    right: -20px;
+    bottom: 0;
+    left: -20px;
     border-left: 1px solid $light-gray;
     border-right: 1px solid $light-gray;
-
-    &:before {
-      position: absolute;
-      content: '';
-      display: block;
-      top: 0;
-      right: -20px;
-      bottom: 0;
-      left: -20px;
-      border-left: 1px solid $light-gray;
-      border-right: 1px solid $light-gray;
-    }
   }
 }
 

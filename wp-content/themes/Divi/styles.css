@@ -104,12 +104,12 @@
 .home-hero.et_pb_section {
   padding: 0 !important; }
 
-.et_pb_section_sticky.age-of-light-hero, .et_pb_section_sticky .et_pb_column_single.age-of-light-hero, .et_pb_section_sticky .et_pb_row.et-last-child.age-of-light-hero, .et_pb_section_sticky .et_pb_row:last-child.age-of-light-hero, .et_pb_section_sticky .et_pb_specialty_column .et_pb_row_inner.et-last-child.age-of-light-hero, .et_pb_section_sticky .et_pb_specialty_column .et_pb_row_inner:last-child.age-of-light-hero {
+.age-of-light-hero {
   position: relative;
   padding: 140px 60px !important;
   border-left: 1px solid #c2c2c2;
   border-right: 1px solid #c2c2c2; }
-  .et_pb_section_sticky.age-of-light-hero:before, .et_pb_section_sticky .et_pb_column_single.age-of-light-hero:before, .et_pb_section_sticky .et_pb_row.et-last-child.age-of-light-hero:before, .et_pb_section_sticky .et_pb_row:last-child.age-of-light-hero:before, .et_pb_section_sticky .et_pb_specialty_column .et_pb_row_inner.et-last-child.age-of-light-hero:before, .et_pb_section_sticky .et_pb_specialty_column .et_pb_row_inner:last-child.age-of-light-hero:before {
+  .age-of-light-hero:before {
     position: absolute;
     content: '';
     display: block;
