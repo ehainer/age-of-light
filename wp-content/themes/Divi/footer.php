@@ -56,5 +56,26 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 	</div> <!-- #page-container -->
 
 	<?php wp_footer(); ?>
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+	<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+	<script>
+	window.addEventListener("load", function(){
+	window.cookieconsent.initialise({
+	  "palette": {
+	    "popup": {
+	      "background": "#694230",
+	      "text": "#ffffff"
+	    },
+	    "button": {
+	      "background": "transparent",
+	      "text": "#f2b54e",
+	      "border": "#f2b55e"
+	    }
+	  },
+	  "content": {
+	    "href": "www.whitneyscharer.com/privacy"
+	  }
+	})});
+	</script>
 </body>
 </html>
