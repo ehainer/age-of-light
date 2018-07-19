@@ -235,7 +235,8 @@
 
 	<?php ob_start(); ?>
 		<header id="main-header" data-height-onload="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>">
-			<div class="container clearfix et_menu_container">
+			<div class="container clearfix et_menu_top_gap bordered-column"></div>
+			<div class="container clearfix et_menu_container bordered-column">
 			<?php
 				$logo = ( $user_logo = et_get_option( 'divi_logo' ) ) && '' != $user_logo
 					? $user_logo
@@ -243,8 +244,8 @@
 
 				ob_start();
 			?>
-				<div class="logo_container">
-					<span class="logo_helper"></span>
+				<div class="logo_container header-left">
+					<!--<span class="logo_helper"></span>-->
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 						<img src="<?php echo esc_attr( $logo ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" id="logo" data-height-percentage="<?php echo esc_attr( et_get_option( 'logo_height', '54' ) ); ?>" />
 					</a>
@@ -261,7 +262,7 @@
 				 */
 				echo apply_filters( 'et_html_logo_container', $logo_container );
 			?>
-				<div id="et-top-navigation" data-height="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>" data-fixed-height="<?php echo esc_attr( et_get_option( 'minimized_menu_height', '40' ) ); ?>">
+				<div id="et-top-navigation" class="header-right" data-height="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>" data-fixed-height="<?php echo esc_attr( et_get_option( 'minimized_menu_height', '40' ) ); ?>">
 					<?php if ( ! $et_slide_header || is_customize_preview() ) : ?>
 						<nav id="top-menu-nav">
 						<?php
