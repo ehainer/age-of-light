@@ -33,32 +33,30 @@ a:visited {
   padding-left: 3rem;
   padding-right: 3rem; }
 
-.wpcf7-form {
-  max-width: 900px; }
-  .wpcf7-form label {
-    font-weight: bold;
-    font-family: Montserrat, Helvetica, Arial, sans-serif;
-    font-size: 15px; }
-  .wpcf7-form .wpcf7-form-control-wrap {
-    display: block; }
-    .wpcf7-form .wpcf7-form-control-wrap > input, .wpcf7-form .wpcf7-form-control-wrap > textarea {
-      padding: 8px;
-      font-size: 15px;
-      font-family: Helvetica,Tahoma,sans-serif; }
-    .wpcf7-form .wpcf7-form-control-wrap > textarea {
-      min-width: 900px;
-      min-height: 400px; }
-  .wpcf7-form .wpcf7-submit {
-    background-color: #694230;
-    color: #ffffff;
-    font-family: Montserrat, Helvetica, Arial, sans-serif;
-    font-weight: bold;
+.wpcf7-form label {
+  font-weight: bold;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-size: 15px; }
+.wpcf7-form .wpcf7-form-control-wrap {
+  display: block; }
+  .wpcf7-form .wpcf7-form-control-wrap > input, .wpcf7-form .wpcf7-form-control-wrap > textarea {
+    padding: 8px;
     font-size: 15px;
-    text-transform: uppercase;
-    border: 0;
-    padding: 8px 15px;
-    cursor: pointer;
-    float: right; }
+    font-family: Helvetica,Tahoma,sans-serif; }
+  .wpcf7-form .wpcf7-form-control-wrap > textarea {
+    width: 100%;
+    min-height: 400px; }
+.wpcf7-form .wpcf7-submit {
+  background-color: #694230;
+  color: #ffffff;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: 0;
+  padding: 8px 15px;
+  cursor: pointer;
+  float: right; }
 
 .et_pb_section {
   padding: 0 !important; }
@@ -334,8 +332,8 @@ a:visited {
     text-transform: uppercase;
     font-family: Montserrat, Helvetica, Arial, sans-serif;
     font-weight: bold;
-    line-height: 40px;
-    padding-left: 40px; }
+    line-height: 15px;
+    padding-left: 30px; }
   .instagram > #sb_instagram[style] {
     padding-bottom: 0 !important; }
 
