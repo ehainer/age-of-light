@@ -9,12 +9,99 @@ $tan: #faecd4;
 $white: #ffffff;
 $tan-yellow: #edc17c;
 
+$montserrat: Montserrat,Helvetica,Arial,sans-serif;
+
 /*
 .et_header_style_left #et-top-navigation,
 .et_header_style_split #et-top-navigation {
   padding: 30px 0 0 !important;
 }
 */
+
+a {
+  &:link { color: #0000EE; }
+  &:visited { color: #551A8B; }
+}
+
+#main-footer {
+  > .et_pb_section {
+    background-color: $tan;
+
+    .connect-with {
+      position: relative;
+      color: $brown;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: bold;
+      font-family: $montserrat;
+      width: 200px;
+      height: 32px;
+
+      > span {
+        position: absolute;
+        bottom: 0;
+        line-height: 16px;
+      }
+    }
+
+    .icon {
+      background-color: $brown;
+      border-radius: 50%;
+    }
+  }
+}
+
+.entry-content {
+  > .et_pb_section {
+    > .et_pb_row {
+      @extend .bordered-column;
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+
+    &:first-child .et_pb_row:first-child {
+      @extend .diamond-background;
+    }
+  }
+}
+
+.wpcf7-form {
+  max-width: 900px;
+
+  label {
+    font-weight: bold;
+    font-family: $montserrat;
+    font-size: 15px;
+  }
+
+  .wpcf7-form-control-wrap {
+    display: block;
+
+    > input, > textarea {
+      padding: 8px;
+      font-size: 15px;
+      font-family: Helvetica,Tahoma,sans-serif;
+    }
+
+    > textarea {
+      min-width: 900px;
+      min-height: 400px;
+    }
+  }
+
+  .wpcf7-submit {
+    background-color: $brown;
+    color: $white;
+    font-family: $montserrat;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 0;
+    padding: 8px 15px;
+    cursor: pointer;
+    float: right;
+  }
+}
 
 .et_pb_section {
   padding: 0 !important;
@@ -39,6 +126,12 @@ $tan-yellow: #edc17c;
     bottom: 0;
     border-bottom: 1px solid $light-gray;
   }
+}
+
+.diamond-background {
+  background-image: url(svgs/diamonds.svg);
+  background-position: center -300px;
+  background-size: 115%;
 }
 
 .bordered-column {
@@ -385,7 +478,7 @@ $tan-yellow: #edc17c;
   > .instagram-tag {
     position: absolute;
     text-transform: uppercase;
-    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    font-family: $montserrat;
     font-weight: bold;
     line-height: 40px;
     padding-left: 40px;
@@ -411,7 +504,7 @@ $tan-yellow: #edc17c;
 
   &:before {
     font-size: 12px;
-    font-family: Montserrat,Helvetica,Arial,sans-serif;
+    font-family: $montserrat;
     font-weight: bold;
     text-transform: uppercase;
     margin-right: 5px;

@@ -37,6 +37,37 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 
 			<?php endif; ?>
 
+			<div class="et_pb_section et_pb_section_4 bordered-bottom et_pb_with_background et_section_regular">
+				<div class="et_pb_row et_pb_row_4 bordered-column">
+					<div class="et_pb_column et_pb_column_4_4 et_pb_column_6    et_pb_css_mix_blend_mode_passthrough et-last-child">
+						<ul class="et_pb_module et_pb_social_media_follow et_pb_social_media_follow_0 narrow-column clearfix et_pb_bg_layout_light ">
+							<li><div class="connect-with"><span>Connect With Whitney:</span></div></li>
+							<li class="et_pb_social_media_follow_network_0 et_pb_social_icon et_pb_social_network_link  et-social-facebook et_pb_social_media_follow_network_0">
+								<a href="https://www.facebook.com/whitneyscharerwriter/" class="icon et_pb_with_border" title="Facebook" target="_blank">
+									<span class="et_pb_social_media_follow_network_name">Facebook</span>
+								</a>
+							</li>
+							<li class="et_pb_social_media_follow_network_1 et_pb_social_icon et_pb_social_network_link  et-social-twitter et_pb_social_media_follow_network_1">
+								<a href="https://twitter.com/wscharer" class="icon et_pb_with_border" title="Twitter" target="_blank">
+									<span class="et_pb_social_media_follow_network_name">Twitter</span>
+								</a>
+							</li>
+							<li class="et_pb_social_media_follow_network_2 et_pb_social_icon et_pb_social_network_link  et-social-instagram et_pb_social_media_follow_network_2">
+								<a href="https://www.instagram.com/wscharer/" class="icon et_pb_with_border" title="Instagram" target="_blank">
+									<span class="et_pb_social_media_follow_network_name">Instagram</span>
+								</a>
+							</li>
+							<li class="et_pb_social_media_follow_network_3 et_pb_social_icon et_pb_social_network_link  et-social-pinterest et_pb_social_media_follow_network_3">
+								<a href="https://www.pinterest.com/wscharer/" class="icon et_pb_with_border" title="" target="_blank">
+									<span class="et_pb_social_media_follow_network_name"></span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+				<!--
 				<div id="footer-bottom">
 					<div class="container clearfix">
 				<?php
@@ -46,8 +77,9 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 
 					echo et_get_footer_credits();
 				?>
-					</div>	<!-- .container -->
+					</div>	<!-- .container --
 				</div>
+				-->
 			</footer> <!-- #main-footer -->
 		</div> <!-- #et-main-area -->
 
