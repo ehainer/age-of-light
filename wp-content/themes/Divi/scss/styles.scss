@@ -129,14 +129,17 @@ a:not(.et_pb_button) {
 }
 
 .tribe-events-loop {
-  .tribe-event-url {
-    font-size: 18px;
-    font-weight: bold;
+  .tribe-events-list-event-title {
+    > .tribe-event-url {
+      font-size: 18px;
+      font-weight: bold;
+    }
   }
 
   .tribe-event-schedule-details {
     font-size: 16px;
     font-family: $montserrat;
+    font-weight: normal;
   }
 
   .tribe-events-venue-details {

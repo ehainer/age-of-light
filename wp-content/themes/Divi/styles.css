@@ -78,12 +78,13 @@ a:not(.et_pb_button):hover {
 .tribe-events-list .type-tribe_events:first-of-type {
   margin-top: 0; }
 
-.tribe-events-loop .tribe-event-url {
+.tribe-events-loop .tribe-events-list-event-title > .tribe-event-url {
   font-size: 18px;
   font-weight: bold; }
 .tribe-events-loop .tribe-event-schedule-details {
   font-size: 16px;
-  font-family: Montserrat, Helvetica, Arial, sans-serif; }
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-weight: normal; }
 .tribe-events-loop .tribe-events-venue-details {
   font-size: 16px;
   font-family: Montserrat, Helvetica, Arial, sans-serif; }
