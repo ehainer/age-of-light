@@ -18,8 +18,7 @@ $montserrat: Montserrat,Helvetica,Arial,sans-serif;
 }
 */
 
-a {
-
+a:not(.et_pb_button) {
   &:link { color: $brown; text-decoration: underline; }
   &:visited { color: $brown; }
   &:hover { text-decoration: none; color: $red; }
@@ -109,6 +108,18 @@ a {
   font-family: $montserrat;
   line-height: 16px;
   font-size: 15px;
+}
+
+#tribe-events-content {
+  a {
+    font-size: 15px;
+    font-family: $montserrat;
+  }
+}
+
+.tribe-events-button {
+  font-size: 15px;
+  font-family: $montserrat;
 }
 
 .wpcf7-form {
