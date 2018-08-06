@@ -75,6 +75,19 @@ a:not(.et_pb_button):hover {
   font-size: 15px;
   font-family: Montserrat, Helvetica, Arial, sans-serif; }
 
+.tribe-events-list .type-tribe_events:first-of-type {
+  margin-top: 0; }
+
+.tribe-events-loop .tribe-event-url {
+  font-size: 18px;
+  font-weight: bold; }
+.tribe-events-loop .tribe-event-schedule-details {
+  font-size: 16px;
+  font-family: Montserrat, Helvetica, Arial, sans-serif; }
+.tribe-events-loop .tribe-events-venue-details {
+  font-size: 16px;
+  font-family: Montserrat, Helvetica, Arial, sans-serif; }
+
 .wpcf7-form label {
   font-weight: bold;
   font-family: Montserrat, Helvetica, Arial, sans-serif;

@@ -122,6 +122,29 @@ a:not(.et_pb_button) {
   font-family: $montserrat;
 }
 
+.tribe-events-list {
+  .type-tribe_events:first-of-type {
+    margin-top: 0;
+  }
+}
+
+.tribe-events-loop {
+  .tribe-event-url {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .tribe-event-schedule-details {
+    font-size: 16px;
+    font-family: $montserrat;
+  }
+
+  .tribe-events-venue-details {
+    font-size: 16px;
+    font-family: $montserrat;
+  }
+}
+
 .wpcf7-form {
   label {
     font-weight: bold;
