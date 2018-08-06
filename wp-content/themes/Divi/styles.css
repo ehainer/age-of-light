@@ -88,6 +88,9 @@ a:not(.et_pb_button):hover {
 .tribe-events-loop .tribe-events-venue-details {
   font-size: 16px;
   font-family: Montserrat, Helvetica, Arial, sans-serif; }
+.tribe-events-loop .tribe-events-list-event-description {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-size: 15px; }
 
 .wpcf7-form label {
   font-weight: bold;
