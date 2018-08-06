@@ -19,8 +19,10 @@ $montserrat: Montserrat,Helvetica,Arial,sans-serif;
 */
 
 a {
-  &:link { color: #0000EE; }
-  &:visited { color: #551A8B; }
+
+  &:link { color: $brown; text-decoration: underline; }
+  &:visited { color: $brown; }
+  &:hover { text-decoration: none; color: $red; }
 }
 
 #main-footer {
@@ -63,6 +65,50 @@ a {
       @extend .diamond-background;
     }
   }
+}
+
+#tribe-events-pg-template {
+  position: relative;
+  padding: 2rem;
+  background-repeat: no-repeat;
+  @extend .bordered-column;
+  @extend .diamond-background;
+}
+
+#tribe-bar-form {
+  label {
+    font-size: 15px;
+    font-family: $montserrat;
+  }
+
+  input[type="text"] {
+    font-size: 15px;
+    font-family: $montserrat;
+    margin-top: 2px;
+  }
+
+  .tribe-bar-submit {
+    input[type="submit"] {
+      background-color: $brown;
+      font-size: 15px;
+      color: $white;
+      text-transform: uppercase;
+      font-family: $montserrat;
+    }
+  }
+}
+
+.tribe-events-page-title {
+  font-family: $montserrat;
+  line-height: 1.8em;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.tribe-bar-views-list span[class^="tribe-icon-"] {
+  font-family: $montserrat;
+  line-height: 16px;
+  font-size: 15px;
 }
 
 .wpcf7-form {

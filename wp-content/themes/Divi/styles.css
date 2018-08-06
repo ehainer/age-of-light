@@ -6,9 +6,13 @@
 }
 */
 a:link {
-  color: #0000EE; }
+  color: #694230;
+  text-decoration: underline; }
 a:visited {
-  color: #551A8B; }
+  color: #694230; }
+a:hover {
+  text-decoration: none;
+  color: #e92c29; }
 
 #main-footer > .et_pb_section {
   background-color: #faecd4; }
@@ -32,6 +36,36 @@ a:visited {
 .entry-content > .et_pb_section > .et_pb_row {
   padding-left: 3rem;
   padding-right: 3rem; }
+
+#tribe-events-pg-template {
+  position: relative;
+  padding: 2rem;
+  background-repeat: no-repeat; }
+
+#tribe-bar-form label {
+  font-size: 15px;
+  font-family: Montserrat, Helvetica, Arial, sans-serif; }
+#tribe-bar-form input[type="text"] {
+  font-size: 15px;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  margin-top: 2px; }
+#tribe-bar-form .tribe-bar-submit input[type="submit"] {
+  background-color: #694230;
+  font-size: 15px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: Montserrat, Helvetica, Arial, sans-serif; }
+
+.tribe-events-page-title {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  line-height: 1.8em;
+  font-size: 30px;
+  font-weight: 500; }
+
+.tribe-bar-views-list span[class^="tribe-icon-"] {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  line-height: 16px;
+  font-size: 15px; }
 
 .wpcf7-form label {
   font-weight: bold;
@@ -75,15 +109,15 @@ a:visited {
     bottom: 0;
     border-bottom: 1px solid #c2c2c2; }
 
-.diamond-background, .entry-content > .et_pb_section:first-child .et_pb_row:first-child {
+.diamond-background, .entry-content > .et_pb_section:first-child .et_pb_row:first-child, #tribe-events-pg-template {
   background-image: url(svgs/diamonds.svg);
   background-position: center -300px;
   background-size: 115%; }
 
-.bordered-column, .entry-content > .et_pb_section > .et_pb_row {
+.bordered-column, .entry-content > .et_pb_section > .et_pb_row, #tribe-events-pg-template {
   border-left: 1px solid #c2c2c2;
   border-right: 1px solid #c2c2c2; }
-  .bordered-column:before, .entry-content > .et_pb_section > .et_pb_row:before {
+  .bordered-column:before, .entry-content > .et_pb_section > .et_pb_row:before, #tribe-events-pg-template:before {
     position: absolute;
     content: '';
     display: block;
