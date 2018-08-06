@@ -131,8 +131,8 @@ a:not(.et_pb_button) {
 .tribe-events-loop {
   .tribe-events-list-event-title {
     > .tribe-event-url {
-      font-size: 18px;
-      font-weight: bold;
+      font-size: 18px !important;
+      font-weight: bold !important;
     }
   }
 
