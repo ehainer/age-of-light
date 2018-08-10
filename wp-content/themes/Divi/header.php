@@ -39,6 +39,8 @@
 	<meta property=”og:description” content="Author website for Whitney Scharer, debut author of The Age of Light" />
 	<meta property="og:url" content="http://www.whitneyscharer.com" />
 	<meta property="og:image" content="/wp-content/themes/Divi/images/age-of-light.jpg" />
+	<meta property="og:image:width" content="400" />
+	<meta property="og:image:height" content="620" />
 </head>
 <body <?php body_class(); ?>>
 <?php
