@@ -230,28 +230,28 @@ a:not(.et_pb_button):not(.et-pb-arrow-prev):not(.et-pb-arrow-next):hover {
     left: 0;
     border-top: 1px solid #c2c2c2; }
 
-#top-menu {
+#top-menu#top-menu {
   font-size: 0; }
-  #top-menu > li {
+  #top-menu#top-menu li {
     text-transform: uppercase;
     padding: 0 12px !important;
     border-right: 1px solid #c2c2c2; }
-    #top-menu > li li {
+    #top-menu#top-menu li li {
       width: 100%;
       border-right: 0; }
-      #top-menu > li li a {
+      #top-menu#top-menu li li a {
         width: 100%; }
-    #top-menu > li > a, #top-menu > li.current-menu-item > a, #top-menu > li.current-menu-ancestor > a {
+    #top-menu#top-menu li > a, #top-menu#top-menu li.current-menu-item > a, #top-menu#top-menu li.current-menu-ancestor > a {
       display: block;
       padding: 0 !important;
       height: 35px;
       line-height: 35px;
       color: rgba(0, 0, 0, 0.6); }
-    #top-menu > li.menu-item-has-children > a {
+    #top-menu#top-menu li.menu-item-has-children > a {
       padding: 0 20px 0 0 !important; }
-    #top-menu > li.current-menu-item:not(.menu-item-has-children) > a {
+    #top-menu#top-menu li.current-menu-item:not(.menu-item-has-children) > a {
       color: #e92c29; }
-    #top-menu > li:last-child {
+    #top-menu#top-menu li:last-child {
       border-right: 0; }
 
 #et-top-navigation {

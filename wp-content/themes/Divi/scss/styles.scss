@@ -344,10 +344,10 @@ a:not(.et_pb_button):not(.et-pb-arrow-prev):not(.et-pb-arrow-next) {
   }
 }
 
-#top-menu {
+#top-menu#top-menu {
   font-size: 0;
 
-  > li {
+  li {
     text-transform: uppercase;
     padding: 0 12px !important;
     border-right: 1px solid $light-gray;
