@@ -78,6 +78,9 @@ a:not(.et_pb_button):hover {
 .tribe-events-list .type-tribe_events:first-of-type {
   margin-top: 0; }
 
+.tribe-events-event-wrapper {
+  overflow: hidden; }
+
 .tribe-events-loop .tribe-events-list-event-title > .tribe-event-url {
   font-size: 18px !important;
   font-weight: bold !important; }
