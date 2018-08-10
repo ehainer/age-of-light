@@ -246,7 +246,7 @@ a:not(.et_pb_button):not(.et-pb-arrow-prev):not(.et-pb-arrow-next):hover {
       padding: 0 !important;
       height: 35px;
       line-height: 35px;
-      color: rgba(0, 0, 0, 0.6); }
+      color: rgba(0, 0, 0, 0.6) !important; }
     #top-menu li.menu-item-has-children > a {
       padding: 0 20px 0 0 !important; }
     #top-menu li.current-menu-item:not(.menu-item-has-children) > a {
