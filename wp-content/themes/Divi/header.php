@@ -34,6 +34,11 @@
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
 
+	<meta property="og:title" content="Whitney Scharer" />
+	<meta property="og:type" content="website" />
+	<meta property=”og:description” content="Author website for Whitney Scharer, debut author of The Age of Light" />
+	<meta property="og:url" content="http://www.whitneyscharer.com" />
+	<meta property="og:image" content="/wp-content/themes/Divi/images/age-of-light.jpg" />
 </head>
 <body <?php body_class(); ?>>
 <?php

@@ -18,7 +18,7 @@ $montserrat: Montserrat,Helvetica,Arial,sans-serif;
 }
 */
 
-a:not(.et_pb_button) {
+a:not(.et_pb_button):not(.et-pb-arrow-prev):not(.et-pb-arrow-next) {
   &:link { color: $brown; text-decoration: underline; }
   &:visited { color: $brown; }
   &:hover { text-decoration: none; color: $red; }
@@ -361,11 +361,14 @@ a:not(.et_pb_button) {
       }
     }
 
-    > a {
-      display: block;
-      padding: 0 !important;
-      height: 35px;
-      line-height: 35px;
+    &, &.current-menu-item, &.current-menu-ancestor {
+      > a {
+        display: block;
+        padding: 0 !important;
+        height: 35px;
+        line-height: 35px;
+        color: rgba(0, 0, 0, .6);
+      }
     }
 
     &.menu-item-has-children {
@@ -374,7 +377,7 @@ a:not(.et_pb_button) {
       }
     }
 
-    &.current-menu-item {
+    &.current-menu-item:not(.menu-item-has-children) {
       > a {
         color: $red;
       }
@@ -601,6 +604,11 @@ a:not(.et_pb_button) {
     vertical-align: bottom;
     line-height: 32px;
   }
+}
+
+a.cc-link:link {
+  color: $red !important;
+  font-weight: bold;
 }
 
 
