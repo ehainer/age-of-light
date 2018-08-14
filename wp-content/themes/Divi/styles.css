@@ -422,6 +422,12 @@ a.cc-link:link {
   color: #ffffff !important;
   font-weight: bold; }
 
+.events-list .tribe-events-loop,
+.single-tribe_organizer .tribe-events-loop,
+.single-tribe_venue .tribe-events-loop,
+.tribe-events-day .tribe-events-loop {
+  max-width: 85%; }
+
 @media only screen and (max-width: 980px) {
   #main-header .et_menu_container > .header-left {
     flex: 0 0 auto; }

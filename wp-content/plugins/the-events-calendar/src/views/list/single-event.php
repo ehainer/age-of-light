@@ -27,20 +27,20 @@ $organizer = tribe_get_organizer();
 
 ?>
 
-<!-- Event Title -->
-<?php do_action( 'tribe_events_before_the_event_title' ) ?>
-<h3 class="tribe-events-list-event-title">
-	<a class="tribe-event-url" href="<?php echo esc_url( tribe_get_event_link() ); ?>" title="<?php the_title_attribute() ?>" rel="bookmark">
-		<?php the_title() ?>
-	</a>
-</h3>
-<?php do_action( 'tribe_events_after_the_event_title' ) ?>
-
 
 <!-- Event Image -->
 <?php echo tribe_event_featured_image( null, 'medium' ); ?>
 
 <div class="tribe-events-event-wrapper">
+	<!-- Event Title -->
+	<?php do_action( 'tribe_events_before_the_event_title' ) ?>
+	<h3 class="tribe-events-list-event-title">
+		<a class="tribe-event-url" href="<?php echo esc_url( tribe_get_event_link() ); ?>" title="<?php the_title_attribute() ?>" rel="bookmark">
+			<?php the_title() ?>
+		</a>
+	</h3>
+	<?php do_action( 'tribe_events_after_the_event_title' ) ?>
+	
 	<!-- Event Meta -->
 	<?php do_action( 'tribe_events_before_the_meta' ) ?>
 	<div class="tribe-events-event-meta">
