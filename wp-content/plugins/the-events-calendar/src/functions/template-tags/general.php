@@ -1537,7 +1537,7 @@ if ( class_exists( 'Tribe__Events__Main' ) ) {
 			$excerpt_more = apply_filters( 'excerpt_more', ' [&hellip;]' );
 
 			// Now we actually trim it
-			$excerpt = wp_trim_words( $excerpt, $excerpt_length, $excerpt_more );
+			$excerpt = html_entity_decode( wp_trim_words( htmlentities( $excerpt ), $excerpt_length, $excerpt_more ) );
 
 			// Original post is back in action!
 			$GLOBALS['post'] = $global_post;

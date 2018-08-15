@@ -95,7 +95,7 @@ $website = tribe_get_organizer_website_url();
 	<!-- Event Content -->
 	<?php do_action( 'tribe_events_before_the_content' ); ?>
 	<div class="tribe-events-list-event-description tribe-events-content description entry-summary">
-		<?php echo tribe_events_get_the_excerpt( null, wp_kses_allowed_html( 'post' ) ); ?>
+		<?php echo tribe_events_get_the_excerpt( null, array('a' => array('href' => true)) ); ?>
 		<?php if(esc_url($website)): ?>
 		<a href="<?php echo esc_url($website); ?>" target="_blank" class="tribe-events-read-more" rel="bookmark"><?php esc_html_e( 'Find out more', 'the-events-calendar' ) ?> &raquo;</a>
 		<?php endif; ?>

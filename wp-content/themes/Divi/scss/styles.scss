@@ -119,6 +119,16 @@ a:not(.et_pb_button):not(.et-pb-arrow-prev):not(.et-pb-arrow-next) {
   .tribe-events-abbr {
     text-decoration: none;
   }
+
+  .tribe-events-list-event-description {
+    a {
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
 }
 
 .tribe-events-button {

@@ -72,6 +72,10 @@ a:not(.et_pb_button):not(.et-pb-arrow-prev):not(.et-pb-arrow-next):hover {
   font-family: Montserrat, Helvetica, Arial, sans-serif; }
 #tribe-events-content .tribe-events-abbr {
   text-decoration: none; }
+#tribe-events-content .tribe-events-list-event-description a {
+  text-decoration: underline; }
+  #tribe-events-content .tribe-events-list-event-description a:hover {
+    text-decoration: none; }
 
 .tribe-events-button {
   font-size: 15px;
