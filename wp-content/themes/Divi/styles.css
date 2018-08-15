@@ -70,6 +70,8 @@ a:not(.et_pb_button):not(.et-pb-arrow-prev):not(.et-pb-arrow-next):hover {
 #tribe-events-content a {
   font-size: 15px;
   font-family: Montserrat, Helvetica, Arial, sans-serif; }
+#tribe-events-content .tribe-events-abbr {
+  text-decoration: none; }
 
 .tribe-events-button {
   font-size: 15px;

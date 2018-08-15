@@ -115,6 +115,10 @@ a:not(.et_pb_button):not(.et-pb-arrow-prev):not(.et-pb-arrow-next) {
     font-size: 15px;
     font-family: $montserrat;
   }
+
+  .tribe-events-abbr {
+    text-decoration: none;
+  }
 }
 
 .tribe-events-button {

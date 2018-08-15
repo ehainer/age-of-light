@@ -399,6 +399,14 @@ function et_pb_portfolio_meta_box() { ?>
 <?php }
 endif;
 
+function vgp_add_allowed_tags($tags){
+	$tags['a'] = array(
+		'href' => true,
+	);
+	return $tags;
+}
+add_filter('wp_kses_allowed_html', 'vgp_add_allowed_tags');
+
 if ( ! function_exists( 'et_single_settings_meta_box' ) ) :
 function et_single_settings_meta_box( $post ) {
 	$post_id = get_the_ID();
