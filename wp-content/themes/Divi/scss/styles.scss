@@ -712,14 +712,16 @@ a.cc-link:link {
 }
 
 @media only screen and (max-width: 800px) {
-  .tribe-events-event-image {
-    float: none;
-    width: 100%;
-    margin: 0;
-    text-align: center;
+  .tribe-events-list .tribe-events-loop {
+    .tribe-events-event-image {
+      float: none;
+      width: 100%;
+      margin: 0;
+      text-align: center;
 
-    img {
-      max-width: 100%;
+      img {
+        max-width: 100%;
+      }
     }
   }
 }
