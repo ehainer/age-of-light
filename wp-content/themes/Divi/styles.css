@@ -87,6 +87,10 @@ a:not(.et_pb_button):not(.et-pb-arrow-prev):not(.et-pb-arrow-next):hover {
 .tribe-events-event-wrapper {
   overflow: hidden; }
 
+.tribe-events-event-image img {
+  max-width: 235px;
+  max-height: 235px; }
+
 .tribe-events-loop .tribe-events-list-event-title > .tribe-event-url {
   font-size: 18px !important;
   font-weight: bold !important;
