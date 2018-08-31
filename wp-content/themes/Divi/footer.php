@@ -62,6 +62,11 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 									<span class="et_pb_social_media_follow_network_name"></span>
 								</a>
 							</li>
+							<li class="et_pb_social_media_follow_network_3 et_pb_social_icon et_pb_social_network_link  et-social-goodreads et_pb_social_media_follow_network_3">
+								<a href="https://www.goodreads.com/author/show/17847344.Whitney_Scharer" class="icon et_pb_with_border" title="" target="_blank">
+									<span class="et_pb_social_media_follow_network_name"></span>
+								</a>
+							</li>
 						</ul>
 					</div>
 				</div>

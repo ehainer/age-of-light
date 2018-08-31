@@ -429,6 +429,10 @@ a:not(.et_pb_button):not(.et-pb-arrow-prev):not(.et-pb-arrow-next):hover {
     vertical-align: bottom;
     line-height: 32px; }
 
+.et-social-goodreads a.icon {
+  background-image: url(images/goodreadsicon.png);
+  background-size: 32px 32px; }
+
 a.cc-link:link {
   color: #ffffff !important;
   font-weight: bold; }
