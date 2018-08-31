@@ -110,7 +110,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 	    }
 	  },
 	  "content": {
-	    "href": "https://www.whitneyscharer.com/privacy"
+	    "href": "https://whitneyscharer.com/privacy"
 	  }
 	})});
 	</script>
