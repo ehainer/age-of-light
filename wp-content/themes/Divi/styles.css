@@ -539,4 +539,8 @@ a.cc-link:link {
     max-width: 90%;
     margin: 0 auto;
     text-align: center;
-    display: block; } }
+    display: block; }
+
+  .et_pb_social_media_follow li:first-child {
+    display: block;
+    margin-bottom: 6px; } }
